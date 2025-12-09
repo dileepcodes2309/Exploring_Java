@@ -19,5 +19,17 @@ public class J26_Process_vs_Thread {
                 A third listens for chat messages.
                 All of these threads live inside one single process: the Zoom app.
                 """;
+
+        String realLifeAnalogy = """
+                Real-Life Analogy
+                🏭 Process = Whole Company
+                👨‍💼 Thread = Employees inside the company
+                
+                Each company has its own building → process has its own memory
+                
+                Employees inside share the same office → threads share memory
+                
+                Adding a new employee is easier than building a new company → thread is lightweight
+                """;
     }
 }
