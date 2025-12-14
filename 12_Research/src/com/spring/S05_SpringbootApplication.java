@@ -20,7 +20,7 @@ public class S05_SpringbootApplication {
                 """;
 
         String configuration = """
-                -> This annotation configures the bean and packages in the classpath.
+                -> This annotation configures the bean and packages in the classpath 
                 """;
     }
 }
