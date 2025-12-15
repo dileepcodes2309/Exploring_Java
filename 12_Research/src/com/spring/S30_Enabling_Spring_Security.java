@@ -5,8 +5,8 @@ public class S30_Enabling_Spring_Security {
 
         String howToEnable = """
                 -> Add Spring Security dependency.
-                -> Once this on classpath, Spring configure a basic security setup.
-                -> Then, all our endpoints will be secured unless explicitly allowed.
+                -> Once it is on the classpath, Spring automatically configures basic security.
+                -> By default, all endpoints will be secured unless explicitly permitted.
                 """;
     }
 }
