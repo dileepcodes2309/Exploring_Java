@@ -17,5 +17,6 @@ public class S32_SpringSecurityFeature {
                 -> Spring Security automatically protects against many common vulnerabilities like
                    CSRF and XSS.
                 """;
+
     }
 }
