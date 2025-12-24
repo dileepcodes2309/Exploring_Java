@@ -16,6 +16,12 @@ public class M01_Architectural_Style {
                 Example:
                 Order, Payment, User as separate services
                 Communicate via REST APIs
+                
+                Publish–Subscribe
+                Example:
+                Kafka / RabbitMQ
+                One service publishes an event
+                Multiple services consume it
                 """;
     }
 }
