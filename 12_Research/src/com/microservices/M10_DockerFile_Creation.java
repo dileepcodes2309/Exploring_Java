@@ -25,6 +25,10 @@ public class M10_DockerFile_Creation {
                 ENTRYPOINT["java","-jar","accounts.jar"]
                 """;
 
+        String dockerBuildCommand = """
+                docker build . -t dileep2309/loans:d3
+                """;
+
         String dockerContainerCreation = """
                 -> docker run -d -p 8080:8080 dileep2309/accounts:d29
                 """;
