@@ -20,7 +20,7 @@ public class P01_Singleton {
                 -> Create public getter for global access to that object.
                 """;
 
-        String stepsForLazy = """
+        String stepsForLazy = """  
                 -> Create a private constructor.
                 -> Create a static volatile of reference of type of same class so that it read the latest
                    value from main memory not from cache.
