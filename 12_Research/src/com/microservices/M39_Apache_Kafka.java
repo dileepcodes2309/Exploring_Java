@@ -55,5 +55,9 @@ public class M39_Apache_Kafka {
                 Load balancing
                 Scalability
               """;
+
+        String startKafka = """
+                docker run -p 9092:9092 apache/kafka-native:4.1.1
+                """;
     }
 }
